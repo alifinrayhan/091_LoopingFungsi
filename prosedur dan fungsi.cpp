@@ -44,3 +44,14 @@ int main(){
     input();
     Display();
 }
+
+int main(){
+
+    char pilihan;
+    do{
+        input();
+        Display();
+        cout << "Apakah ingin membeli kembali";
+
+    }while(pilihan == 'y' ||pilihan == 'Y');
+}
